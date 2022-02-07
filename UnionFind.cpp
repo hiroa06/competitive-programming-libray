@@ -1,3 +1,9 @@
+/*
+root(x): 要素xが属する集合を求める.
+issame(x, y): 要素x,yが同じ集合に属するか判定する.
+merge(x, y): 集合xとyを併合する.併合済のときfalse,未併合のときtrueが返される.
+size(x): 要素xが属する集合の要素の数を求める.
+*/
 struct UnionFind{
     vector<int> par;
 
